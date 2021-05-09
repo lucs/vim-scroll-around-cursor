@@ -1,0 +1,18 @@
+*scroll_around_cursor.txt* Scroll while keeping the cursor on the same screen line.
+
+Author: Luc St-Louis <lucs@pobox.com>
+License: Same terms as Vim itself
+
+======================================================================
+Usage                                             *scroll_around_cursor*
+
+In Vim normal mode, you can move the cursor up and down, without
+scrolling the text, with k/j, or you can scroll the text up and down,
+with the cursor following the text, with <C-E>/<C-Y>. This plugin
+implements another scrolling method, where the text scrolls up and
+down, but the cursor remains on the same screen line; its default
+mapping iѕ <C-K>/<C-J>.
+
+======================================================================
+vim: ft=help et tw=70 ts=4 sts=4 sw=4
+
